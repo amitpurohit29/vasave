@@ -1,0 +1,1080 @@
+
+<!DOCTYPE html>
+<html class="wp-toolbar"
+	lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Dashboard &lsaquo; Amit Purohit &#8212; Wordpress </title>
+<script type="text/javascript">
+addLoadEvent = function(func){if(typeof jQuery!=='undefined')jQuery(document).ready(func);else if(typeof wpOnload!=='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
+var ajaxurl = '/wp-admin/admin-ajax.php',
+	pagenow = 'dashboard',
+	typenow = '',
+	adminpage = 'index-php',
+	thousandsSeparator = ',',
+	decimalPoint = '.',
+	isRtl = 0;
+</script>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//wordpress.com' />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='all-css-0-1' href='https://s0.wp.com/_static/??-eJx9UdtuwyAM/aFRkkntnqZ9CwQ3cQcYYZOsfz+SSanWjL1hzsX2sV6SGigKRNGhqOTLiJH1kgYKigN6uD9Vp4H5Rf8t42J5yJgEqVZX8p6W//gTzZCVLdZ6qGq5ezjQjQsYd0XKwIxxVMGIQD5+7HqMgy+u2tYP7QxPWB35VM2OlBtrqfinpa/9sbO2ATaXmkKg+MviAV4pB25gPzsEiKVBWOezZLJr4B5ZlJg1pgYDHEoDyjAj4/PyDzxUrWlgMkFo9jSWSqtpNPO2cCPxlVLrRFivnBseC7oRpNWdUUCtR21l1nc79BHe+0v3du4v59fu9g2Nhhc8?cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2-1' href='https://s0.wp.com/wp-includes/css/buttons.min.css?m=1596717911h&cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-4-1' href='https://s0.wp.com/_static/??-eJyNUu1OwzAMfCHcrKyMX4hHQSE1rbd8VLFbtLfHXdtoUtHgV+yL76y7xHwPQNH5sUU2jtlob0fpwfXoLlWgWCn6NMMuRcEoJoww+LGjyMa2OgCfNuu9SwFKv5DIxCSkPC7FTu3MhtGjk+ft3I0sqttO3RPGSHIFsV2HeQcU/o23mtKh/xkJlgWzVpAmzJnmXAr2SEId4p0QTHsjd9NFcmW45FMG1tTD/BBzx+YrI/dr81cq1l8HTpCxpawp/oI89H8hDihwrA7mQ//DBuw4hRAGqKvGWGaU5efM0GQ9tVYoRZCUvNBwW/se3upTfXg5Nq/N6fwDO97p+A==?cssminify=yes' type='text/css' media='all' />
+<style id='akismet.css-inline-css'>
+
+#akismet-plugin-container a[href*='akismet-key-config'] { display: none; }
+.wp-admin.dashboard_page_akismet-stats { background-color:#f3f6f8; }
+.dashboard_page_akismet-stats #wpcontent { padding-left: 0; }
+
+</style>
+<style type="text/css">
+#welcome .col1 {
+	float: left;
+	width: 50%;
+}
+.rtl #welcome .col1 {
+	float:right;
+}
+#welcome .col3 {
+	float: right;
+	width: 50%;
+	padding-bottom: 10px;
+}
+.rtl #welcome .col3 {
+	float: left
+}
+
+#welcome .col3 h3 {
+margin-bottom: 5px;
+}
+#welcome .col3 h4 {
+margin-bottom: 5px;
+}
+#welcome .col3 ul {
+margin-left: 15px;
+}
+.rtl #welcome .col3 ul {
+	margin-left: 0;
+	margin-right: 15px;
+}
+#welcome .col3 li {
+list-style: circle;
+}
+#welcome #welcome-video {
+	padding: 10px 0;
+}
+#welcome #welcome-video {
+	text-align: center;
+}
+#welcome-video .video-player {
+	margin: auto;
+}
+#are-you-new {
+	font-weight: bold;
+}
+#are-you-new {
+	text-decoration: underline;
+	background: #eee;
+	padding: 3px 10px;
+	border-radius: 15px;
+}
+a#are-you-new:hover {
+	text-decoration: none !important;
+	background: #ccc;
+}
+div.hide-links {
+	float: right;
+	margin-bottom: 8px;
+}
+.rtl div.hide-links {
+	float:left;
+}
+div.hide-links a {
+	padding-left: 8px;
+}
+.rtl div.hide-links a {
+	padding-left: 0;
+	padding-right: 8px;
+}
+</style>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s0.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1605528427h&ver=5.6-RC5-49737"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<script type="text/javascript">
+if (window.top !== window.self) {
+    window.top.location.href = window.self.location.href; }
+</script><script id='utils-js-extra'>
+var userSettings = {"url":"\/","uid":"199837513","time":"1610961103","secure":"1"};
+</script>
+<script id='akismet.js-js-extra'>
+var WPAkismet = {"comment_author_url_nonce":"a0257788f5","strings":{"Remove this URL":"Remove this URL","Removing...":"Removing...","URL removed":"URL removed","(undo)":"(undo)","Re-adding...":"Re-adding..."},"enable_mshots":"1"};
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyFUttOwzAM/SGydJtA7AHxKShN3cptbosdqv49HrTQjamTIjk5Pj7xTY9JYbCuNEC6l3MukKfZ7Hp60kKwMTAE1r6o5EqHgTSVmmzGxBjl1Ubn4nhLF7kUiT0QmQ4W7/q3wuho5zHchppGwN/POBs7qHNBOzTZtHxPak68oLYxw1pzzaJ0H78ue81aFUPgwPJhsY/zttH7EpAnxabrIP8DHoWnSV06+HfbmMiITQdMGj7FUWdkuOT8g6pv4Y1gMyB54R13lf6QxizAdoJjEokWoKllPttUWRaAoOK8MNdPCX33b/uX6nR6PlT71/4LSuD3tg=='></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+jQuery( function( $ ) {
+	var WPAdminURL = ajaxurl.replace( '/admin-ajax.php', '/' );
+	var ajaxWidgets = {
+		dashboard_your_stuff : 'index-yourstuff.php',
+		dashboard_hot : 'index-hotstuff.php'
+	};
+
+	var ajaxPopulateWidgets = function() {
+		$.each( ajaxWidgets, function(k,v) {
+			var e = jQuery('#' + k + ':visible div.inside').find('.widget-loading');
+			if ( e.size() ) { e.parent().load( WPAdminURL + v ); }
+		} );
+	};
+	ajaxPopulateWidgets();
+} );
+/* ]]> */
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="https://s0.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s0.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon" href="https://s0.wp.com/i/webclip.png" />
+<meta name="application-name" content="Amit Purohit" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="DevOps Trainee" /><meta name="msapplication-task" content="name=Write a post;action-uri=https://amitpurohit857075463.wordpress.com/wp-admin/post-new.php;icon-uri=https://s0.wp.com/i/icons/post.ico" /><meta name="msapplication-task" content="name=Moderate comments;action-uri=https://amitpurohit857075463.wordpress.com/wp-admin/edit-comments.php?comment_status=moderated;icon-uri=https://s0.wp.com/i/icons/comment.ico" /><meta name="msapplication-task" content="name=Upload new media;action-uri=https://amitpurohit857075463.wordpress.com/wp-admin/media-new.php;icon-uri=https://s0.wp.com/i/icons/media.ico" /><meta name="msapplication-task" content="name=Blog stats;action-uri=https://amitpurohit857075463.wordpress.com/wp-admin/index.php?page=stats;icon-uri=https://s0.wp.com/i/icons/stats.ico" />	<link id="wp-admin-canonical" rel="canonical" href="https://amitpurohit857075463.wordpress.com/wp-admin/index.php" />
+	<script>
+		if ( window.history.replaceState ) {
+			window.history.replaceState( null, null, document.getElementById( 'wp-admin-canonical' ).href + window.location.hash );
+		}
+	</script>
+	<script type="text/javascript">var _wpColorScheme = {"icons":{"base":"#a0a5aa","focus":"#00a0d2","current":"#fff"}};</script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style type="text/css" media="screen">
+
+#polldaddy-error.error{
+	border-radius:6px;
+	margin-left:5px;
+	margin-right:2%;
+	background-color:#FFC;
+	background:url('/wp-content/admin-plugins/post-flair/polldaddy/img/error-gray.png') no-repeat 3px 3px, -moz-linear-gradient(top, #FFF, #FFC);
+	background:url('/wp-content/admin-plugins/post-flair/polldaddy/img/error-gray.png') no-repeat 3px 3px, -webkit-linear-gradient(top, #FFF, #FFC);
+	margin-top:14px;
+	border:1px #cccccc solid;
+	padding:3px 5px 3px 40px;
+}
+
+
+h2#polldaddy-header, h2#poll-list-header {
+	margin-bottom: 14px;
+}
+
+	
+	
+</style>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+	<style type="text/css">
+/* metaboxes */
+ul.metabox-tabs {
+	margin-bottom: 5px;
+	padding: 0 10px 0 10px;
+	background: #e1e1e1;}
+ul.metabox-tabs {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#general ul.metabox-tabs {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+ul.metabox-tabs {
+	height: 24px;
+	margin-top: -11px !important;
+}
+ul.metabox-tabs li {
+	list-style: none;
+	display: inline;
+	font-size: 11px;
+}
+ul.metabox-tabs li.tab a {
+	display: block;
+	float: left;
+	margin-right: 4px;
+
+	padding: 5px 6px;
+	filter:alpha(opacity=50);
+	opacity: .5;
+	-webkit-opacity: .5;
+	-moz-opacity: .5;
+	background: #fff;
+	color: #000;
+	color: #454545\9; /* IE8 and below */
+	border-radius: 2px 2px 0 0;
+	-webkit-border-radius: 2px 2px 0 0;
+	-moz-border-radius: 2px 2px 0 0;
+	font-weight: bold;
+	text-decoration: none;
+	zoom: 1;
+}
+ul.metabox-tabs li.tab a {
+	/* for some reason, opacity doesn't work in IE */
+	background: #f0f0f0\9; /* IE8 and below */
+}
+ul.metabox-tabs li.tab a.active,
+ul.metabox-tabs li.tab a:hover {
+	background: #fff;
+	opacity: 1;
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	filter:alpha(opacity=100);
+
+		color: #454545;
+	}
+body.admin-color-fresh ul.metabox-tabs,
+body.admin-color-classic ul.metabox-tabs {
+		background: #fff;
+	border-bottom: 1px solid #dedede;
+	}
+body.admin-color-fresh ul.metabox-tabs li.tab a,
+body.admin-color-classic ul.metabox-tabs li.tab a {
+	-moz-box-shadow: inset 0 1px 0 white;
+	-webkit-box-shadow: inset 0 1px 0 white;
+	box-shadow: inset 0 1px 0 white;
+	-moz-border-radius: 3px 3px 0 0;
+	-khtml-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+
+		background-color: #f6f6f6;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+	border-top: 1px solid #dfdfdf;
+	
+	height: 13px;
+}
+
+body.admin-color-fresh ul.metabox-tabs li.tab a.active,
+body.admin-color-classic ul.metabox-tabs li.tab a.active,
+body.admin-color-fresh ul.metabox-tabs li.tab a:hover,
+body.admin-color-classic ul.metabox-tabs li.tab a:hover {
+		background-color: #f6f6f6;
+	background-image: -ms-linear-gradient(top,#fefefe,#f6f6f6) !important;
+	background-image: -moz-linear-gradient(top,#fefefe,#f6f6f6) !important;
+	background-image: -o-linear-gradient(top,#fefefe,#f6f6f6) !important;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#fefefe),to(#f6f6f6)) !important;
+	background-image: -webkit-linear-gradient(top,#fefefe,#f6f6f6) !important;
+	background-image: linear-gradient(top,#fefefe,#f6f6f6) !important;
+	
+	height: 15px;
+
+}
+
+body.admin-color-fresh ul.metabox-tabs li.tab a.active,
+body.admin-color-classic ul.metabox-tabs li.tab a:hover {
+	background: #f4f4f4;
+}
+
+body.admin-color-fresh #dashboard_hot ul.metabox-tabs,
+body.admin-color-classic #dashboard_hot ul.metabox-tabs {
+	margin-top: -11px !important;
+	margin-bottom: 10px;
+}
+
+ul.metabox-tabs li.link {
+	margin-left: 4px;
+}
+#dashboard-widgets-wrap .metabox-tabs {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+</style>
+<script type="text/javascript">
+/* <![CDATA[ */
+jQuery( function($) {
+	var url = 'index.php?context=widget&amp;page=estats&amp;blog=188013152&amp;noheader=true&amp;chart&amp;chart_type=stats-data&amp;unit=1';
+	var dashStats = $( '#dashboard_stats:visible div.inside' );
+	if ( !dashStats.size() ) { return; }
+
+	var w = dashStats.prev().width(), chartw = w - 3;
+	url += '&width=' + chartw + '&height=180';
+
+	dashStats.find( '#stats-graph' ).html( "<iframe allowtransparency='true' scrolling='no' frameborder='0' style='width: " + w.toString() + "px; height: 180px; overflow: hidden;' src='" + url + "'></iframe>" );
+	var l = dashStats.find( '.widget-loading' );
+	if ( l.size() ) {
+		l.parent().load( 'index.php?blogstats=async');
+	}
+} );
+/* ]]> */
+</script>
+	<style type="text/css">
+		#wp-content-editor-tools {
+			height: auto;
+		}
+				.wp-editor-container {
+			clear: both;
+		}
+			</style>
+</head>
+<body class="wp-admin wp-core-ui no-js wp-embed-responsivelegacy-color-fresh index-php auto-fold admin-bar branch-5-6 version-5-6 admin-color-fresh locale-en multisite no-customize-support no-svg">
+<script type="text/javascript">
+	document.body.className = document.body.className.replace('no-js','js');
+</script>
+
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+				request = true;
+	
+			b[c] = b[c].replace( rcs, ' ' );
+			// The customizer requires postMessage and CORS (if the site is cross domain).
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+	
+<div id="wpwrap">
+
+<div id="adminmenumain" role="navigation" aria-label="Main menu">
+<a href="#wpbody-content" class="screen-reader-shortcut">Skip to main content</a>
+<a href="#wp-toolbar" class="screen-reader-shortcut">Skip to toolbar</a>
+<div id="adminmenuback"></div>
+<div id="adminmenuwrap">
+<ul id="adminmenu">
+
+
+	<li class="wp-first-item wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-top-first menu-icon-dashboard menu-top-first" id="menu-dashboard">
+	<a href='index.php' class="wp-first-item wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-top-first menu-icon-dashboard menu-top-first" ><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-dashboard' aria-hidden='true'><br /></div><div class='wp-menu-name'>Dashboard</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Dashboard</li><li class="wp-first-item current"><a href='index.php' class="wp-first-item current" aria-current="page">Home</a></li><li><a href='index.php?page=my-comments'>Comments I&#8217;ve Made</a></li><li><a href='index.php?page=stats'>Site Stats</a></li><li><a href='index.php?page=my-blogs'>My Blogs</a></li><li><a href='index.php?page=subscriptions'>Blogs I Follow</a></li><li><a href='index.php?page=akismet-stats'>Akismet Stats</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_paid-upgrades menu-top-last" id="toplevel_page_paid-upgrades"><a href='admin.php?page=paid-upgrades.php' class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_paid-upgrades menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-cart' aria-hidden='true'><br /></div><div class='wp-menu-name'>Plans</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Plans</li><li class="wp-first-item"><a href='paid-upgrades.php?page=paid-upgrades.php' class="wp-first-item">Plans</a></li><li><a href='paid-upgrades.php?page=premium-themes'>Premium Themes</a></li><li><a href='paid-upgrades.php?page=domains'>My Domains</a></li><li><a href='paid-upgrades.php?page=my-upgrades'>Manage Purchases</a></li><li><a href='paid-upgrades.php?page=billing-history'>Billing History</a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" id="menu-posts">
+	<a href='edit.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-post' aria-hidden='true'><br /></div><div class='wp-menu-name'>Posts</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Posts</li><li class="wp-first-item"><a href='edit.php' class="wp-first-item">All Posts</a></li><li><a href='post-new.php'>Add New</a></li><li><a href='edit-tags.php?taxonomy=category'>Categories</a></li><li><a href='edit-tags.php?taxonomy=post_tag'>Tags</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" id="menu-media">
+	<a href='upload.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-media" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-media' aria-hidden='true'><br /></div><div class='wp-menu-name'>Media</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Media</li><li class="wp-first-item"><a href='upload.php' class="wp-first-item">Library</a></li><li><a href='media-new.php'>Add New</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-links" id="menu-links">
+	<a href='link-manager.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-links" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-links' aria-hidden='true'><br /></div><div class='wp-menu-name'>Links</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Links</li><li class="wp-first-item"><a href='link-manager.php' class="wp-first-item">All Links</a></li><li><a href='link-add.php'>Add New</a></li><li><a href='edit-tags.php?taxonomy=link_category'>Link Categories</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" id="menu-pages">
+	<a href='edit.php?post_type=page' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-page" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-page' aria-hidden='true'><br /></div><div class='wp-menu-name'>Pages</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Pages</li><li class="wp-first-item"><a href='edit.php?post_type=page' class="wp-first-item">All Pages</a></li><li><a href='post-new.php?post_type=page'>Add New</a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top menu-icon-comments" id="menu-comments">
+	<a href='edit-comments.php' class="wp-not-current-submenu menu-top menu-icon-comments" ><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-comments' aria-hidden='true'><br /></div><div class='wp-menu-name'>Comments <span class="awaiting-mod count-0"><span class="pending-count" aria-hidden="true">0</span><span class="comments-in-moderation-text screen-reader-text">0 Comments in moderation</span></span></div></a></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-feedback menu-top-last" id="menu-posts-feedback">
+	<a href='edit.php?post_type=feedback' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-feedback menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-feedback' aria-hidden='true'><br /></div><div class='wp-menu-name'>Feedback</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Feedback</li><li class="wp-first-item"><a href='edit.php?post_type=feedback' class="wp-first-item">Feedback</a></li><li><a href='edit.php?post_type=feedback&#038;page=polls'>Polls</a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
+	<a href='themes.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-appearance' aria-hidden='true'><br /></div><div class='wp-menu-name'>Appearance</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Appearance</li><li class="wp-first-item"><a href='themes.php' class="wp-first-item">Themes</a></li><li class="hide-if-no-customize"><a href='customize.php?return=%2Fwp-admin%2Findex.php' class="hide-if-no-customize">Customize</a></li><li><a href='widgets.php'>Widgets</a></li><li><a href='nav-menus.php'>Menus</a></li><li><a href='customize.php?autofocus[panel]=amp_panel&return=https%3A%2F%2Famitpurohit857075463.wordpress.com%2Fwp-admin%2F'>AMP</a></li><li><a href='themes.php?page=mobile-options'>Mobile</a></li></ul></li>
+	<li class="wp-not-current-submenu menu-top toplevel_page_calypso-plugins" id="toplevel_page_calypso-plugins">
+	<a href='admin.php?page=calypso-plugins' class="wp-not-current-submenu menu-top toplevel_page_calypso-plugins" ><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-plugins' aria-hidden='true'><br /></div><div class='wp-menu-name'>Plugins</div></a></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" id="menu-users">
+	<a href='users.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-users' aria-hidden='true'><br /></div><div class='wp-menu-name'>Users</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Users</li><li class="wp-first-item"><a href='users.php' class="wp-first-item">All Users</a></li><li><a href='users.php?page=wpcom-invite-users'>Invite New</a></li><li><a href='users.php?page=grofiles-editor'>My Profile</a></li><li><a href='users.php?page=grofiles-user-settings'>Personal Settings</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" id="menu-tools">
+	<a href='tools.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-tools' aria-hidden='true'><br /></div><div class='wp-menu-name'>Tools</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Tools</li><li class="wp-first-item"><a href='tools.php' class="wp-first-item">Available Tools</a></li><li><a href='import.php'>Import</a></li><li><a href='https://wordpress.com/export/amitpurohit857075463.wordpress.com'>Export</a></li><li><a href='tools.php?page=delete-blog'>Delete Site</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" id="menu-settings">
+	<a href='options-general.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-settings' aria-hidden='true'><br /></div><div class='wp-menu-name'>Settings</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Settings</li><li class="wp-first-item"><a href='options-general.php' class="wp-first-item">General</a></li><li><a href='options-writing.php'>Writing</a></li><li><a href='options-reading.php'>Reading</a></li><li><a href='options-discussion.php'>Discussion</a></li><li><a href='options-media.php'>Media</a></li><li><a href='options-general.php?page=sharing'>Sharing</a></li><li><a href='options-general.php?page=polls&#038;action=options'>Polls</a></li><li><a href='options-general.php?page=adcontrol'>AdControl</a></li><li><a href='options-general.php?page=email_post_changes'>Email Post Changes</a></li><li><a href='options-general.php?page=webhooks'>Webhooks</a></li></ul></li><li id="collapse-menu" class="hide-if-no-js"><button type="button" id="collapse-button" aria-label="Collapse Main menu" aria-expanded="true"><span class="collapse-button-icon" aria-hidden="true"></span><span class="collapse-button-label">Collapse menu</span></button></li></ul>
+</div>
+</div>
+<div id="wpcontent">
+
+		<div id="wpadminbar" class="nojq nojs ltr">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar" tabindex="0">
+						<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+			
+		<li id="wp-admin-bar-blog" class="my-sites mb-trackable"><a class="ab-item"  href="https://wordpress.com/sites/amitpurohit857075463.wordpress.com">My Site</a>		</li>
+		<li id="wp-admin-bar-jumptotop-button-menu"><a class="ab-item"  href="#"><div id="jumptotop"><span class="noticon noticon-top"></span></div></a>		</li>
+		<li id="wp-admin-bar-menu-toggle"><a class="ab-item"  href="#"><span class="ab-icon"></span><span class="screen-reader-text">Menu</span></a>		</li>
+		<li id="wp-admin-bar-newdash" class="mb-trackable"><a class="ab-item"  href="https://wordpress.com/read">Reader</a>		</li>		</ul>
+			<ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+			
+		<li id="wp-admin-bar-notes" class="menupop">		<div class="ab-item ab-empty-item" ><span id="wpnt-notes-unread-count" class="wpnt-loading wpn-read"></span><span class="noticon noticon-bell"></span><span class="ab-text">Notifications</span></div><div id="wpnt-notes-panel2" style="display:none" lang="en" dir="ltr"><div class="wpnt-notes-panel-header"><span class="wpnt-notes-header"></span><span class="wpnt-notes-panel-link"></span></div></div>		</li>
+		<li id="wp-admin-bar-my-account" class="with-avatar mb-trackable"><a class="ab-item"  href="https://wordpress.com/me/"><img alt='' src='https://1.gravatar.com/avatar/49e8ba83bff57b0699f5d148c5aad0de?s=32&#038;d=mm&#038;r=G' class='avatar avatar-32' height='32' width='32' /><span class="ab-text">Me</span></a>		</li>
+		<li id="wp-admin-bar-ab-new-post" class="mb-trackable"><a class="ab-item"  href="https://wordpress.com/post/amitpurohit857075463.wordpress.com"><span>Write</span></a>		</li>		</ul>
+				</div>
+							<a class="screen-reader-shortcut" href="https://amitpurohit857075463.wordpress.com/wp-login.php?action=logout&#038;_wpnonce=2dbe55004e">Log Out</a>
+					</div>
+
+	
+<script type="text/javascript">
+/* <![CDATA[ */
+var clickDebugLink;
+
+jQuery(document).ready( function($) {
+	var single = false, w = 1000,
+		supe = false;
+
+	$(document.body).load(function(){ $('#wpadminbar img.grav-hashed').removeClass('grav-hashed'); }); // hack to hide the gravatar hovercard
+
+	if ( single && supe )
+		w = 1385;
+	else if ( supe )
+		w = 1200;
+
+	// debug bar extra
+	clickDebugLink = function( parent_id, obj ) {
+
+		$('#'+parent_id).children('div').hide();
+
+		document.getElementById( obj.href.substr( obj.href.indexOf( '#' ) + 1 ) ).style.display = 'block';
+		$( obj.href.substr( obj.href.indexOf( '#' ) ) ).show()
+
+		$(obj).parent().addClass('current').siblings('li').removeClass('current');
+
+		return false;
+	};
+
+	$( '#wpadminbar #wp-admin-bar-shortlink' ).click( function() {
+		$( '#adminbar-shortlink-input' ).select();
+	});
+
+	// skip tap-to-hover on site switcher for mobile
+	if ( 'ontouchstart' in window ) {
+		$('#wp-admin-bar-switch-site').on( 'touchstart', function( event ) {
+			if ( $( window ).width() > 782 ) {
+				return;
+			}
+			event.stopPropagation();
+			$( event.target ).first( 'a' ).click();
+		});
+	}
+
+});
+/* ]]> */
+</script>
+	<div class="wpcom-bubble action-bubble">
+		<div class="bubble-txt"></div>
+	</div>
+	<script type="text/javascript">function hideBubble() { jQuery('body').append( jQuery( 'div.wpcom-bubble' ).removeClass( 'fadein' ) ).off( 'click.bubble touchstart.bubble' ); jQuery(document).off( 'scroll.bubble' ); };</script>
+		<script type="text/javascript">
+	jQuery( '#wp-admin-bar-jumptotop-button-menu a' ).click( function( e ) {
+		e.preventDefault();
+		jQuery( 'html, body' ).animate( { scrollTop: 0 }, 'fast' );
+	} );
+	function hideShowTbJumpToTop() {
+		var total_width = 0;
+		// Calculate total width taken by items minus our button to see if it'll
+		// overlap with other toolbar menus.
+		jQuery( '#wp-admin-bar-root-default > li' ).each( function() {
+			var self = jQuery( this );
+			if ( 'wp-admin-bar-jumptotop-button-menu' != self.attr( 'id' ) )
+				total_width += self.width();
+		});
+		if ( jQuery( '#wp-admin-bar-jumptotop-button-menu' ).position()['left'] - total_width < 10 ) {
+			jQuery( '#jumptotop' ).animate( { 'top': '-50px' }, 'fast' );
+		} else if (  jQuery( window ).scrollTop() >= 350 && parseInt( jQuery( '#jumptotop' ).css( 'top' ) ) < 0 ) {
+			if ( jQuery( '#wp-admin-bar-jumptotop-button-menu' ).position()['left'] - total_width < 10 )
+			   return;
+			jQuery( '#jumptotop' ).animate( { 'top': 0 }, 'fast' );
+		} else if (  jQuery( window ).scrollTop() < 1 && parseInt( jQuery( '#jumptotop' ).css( 'top' ) ) >= 0 ) {
+			jQuery( '#jumptotop' ).animate( { 'top': '-50px' }, 'fast' );
+		}
+	}
+	// handle on page load if auto scrolling to a position
+	hideShowTbJumpToTop();
+	// bind to scrolll event
+	var jumpToTopTimer = null;
+	jQuery( window ).scroll( function() {
+		clearTimeout( jumpToTopTimer );
+		jumpToTopTimer = setTimeout( jumpToTopRefresh, 150 );
+	} );
+	var jumpToTopRefresh = function() {
+		hideShowTbJumpToTop();
+	};
+	</script>
+	
+<div id="wpbody" role="main">
+
+<div id="wpbody-content">
+		<div id="screen-meta" class="metabox-prefs">
+
+			<div id="contextual-help-wrap" class="hidden no-sidebar" tabindex="-1" aria-label="Contextual Help Tab">
+				<div id="contextual-help-back"></div>
+				<div id="contextual-help-columns">
+					<div class="contextual-help-tabs">
+						<ul>
+						
+							<li id="tab-link-overview" class="active">
+								<a href="#tab-panel-overview" aria-controls="tab-panel-overview">
+									Overview								</a>
+							</li>
+							
+							<li id="tab-link-help-navigation">
+								<a href="#tab-panel-help-navigation" aria-controls="tab-panel-help-navigation">
+									Navigation								</a>
+							</li>
+							
+							<li id="tab-link-help-layout">
+								<a href="#tab-panel-help-layout" aria-controls="tab-panel-help-layout">
+									Layout								</a>
+							</li>
+							
+							<li id="tab-link-help-content">
+								<a href="#tab-panel-help-content" aria-controls="tab-panel-help-content">
+									Content								</a>
+							</li>
+							
+							<li id="tab-link-wpcom-feedback">
+								<a href="#tab-panel-wpcom-feedback" aria-controls="tab-panel-wpcom-feedback">
+									Get Help								</a>
+							</li>
+													</ul>
+					</div>
+
+					
+					<div class="contextual-help-tabs-wrap">
+						
+							<div id="tab-panel-overview" class="help-tab-content active">
+								<p>Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab above the screen title.</p>							</div>
+							
+							<div id="tab-panel-help-navigation" class="help-tab-content">
+								<p>The left-hand navigation menu provides links to all of the WordPress administration screens, with submenu items displayed on hover. You can minimize this menu to a narrow icon strip by clicking on the Collapse Menu arrow at the bottom.</p><p>Links in the Toolbar at the top of the screen connect your dashboard and the front end of your site, and provide access to your profile and helpful WordPress information.</p>							</div>
+							
+							<div id="tab-panel-help-layout" class="help-tab-content">
+								<p>You can use the following controls to arrange your Dashboard screen to suit your workflow. This is true on most other administration screens as well.</p><p><strong>Screen Options</strong> &mdash; Use the Screen Options tab to choose which Dashboard boxes to show.</p><p><strong>Drag and Drop</strong> &mdash; To rearrange the boxes, drag and drop by clicking on the title bar of the selected box and releasing when you see a gray dotted-line rectangle appear in the location you want to place the box.</p><p><strong>Box Controls</strong> &mdash; Click the title bar of the box to expand or collapse it. Some boxes added by plugins may have configurable content, and will show a &#8220;Configure&#8221; link in the title bar if you hover over it.</p>							</div>
+							
+							<div id="tab-panel-help-content" class="help-tab-content">
+								<p>The boxes on your Dashboard screen are:</p><p><strong>Welcome</strong> &mdash; Shows links for some of the most common tasks when setting up a new site.</p><p><strong>At a Glance</strong> &mdash; Displays a summary of the content on your site and identifies which theme and version of WordPress you are using.</p><p><strong>Activity</strong> &mdash; Shows the upcoming scheduled posts, recently published posts, and the most recent comments on your posts and allows you to moderate them.</p><p><strong>Quick Draft</strong> &mdash; Allows you to create a new post and save it as a draft. Also displays links to the 3 most recent draft posts you've started.</p><p><strong>WordPress Events and News</strong> &mdash; Upcoming events near you as well as the latest news from the official WordPress project and the <a href="https://planet.wordpress.org/">WordPress Planet</a>.</p>							</div>
+							
+							<div id="tab-panel-wpcom-feedback" class="help-tab-content">
+								<div id="quicklookup"><p>Choose a Category:</p><ul class="supportcats"><li><a onclick="fbshow('appearance')">Appearance</a></li>
+<li><a onclick="fbshow('comments')">Comments</a></li>
+<li><a onclick="fbshow('configuration')">Configuration</a></li>
+<li><a onclick="fbshow('general')">General</a></li>
+<li><a onclick="fbshow('languages')">Languages</a></li>
+<li><a onclick="fbshow('links')">Links</a></li>
+<li><a onclick="fbshow('media')">Media</a></li>
+<li><a onclick="fbshow('following')">Following</a></li>
+<li><a onclick="fbshow('tools')">Tools</a></li>
+<li><a onclick="fbshow('policies-safety')">Policies &amp; Safety</a></li>
+<li><a onclick="fbshow('traffic')">Traffic</a></li>
+<li><a onclick="fbshow('upgrades')">Upgrades</a></li>
+<li><a onclick="fbshow('users')">Users</a></li>
+<li><a onclick="fbshow('widgets-sidebars')">Widgets &amp; Sidebars</a></li>
+<li><a onclick="fbshow('writing-editing')">Writing &amp; Editing</a></li>
+</ul><br class="clear" /><p><a href="http://learn.wordpress.com/">Check out <em>Learn WordPress</em>, chock full of tutorials and walkthroughs to make you a WordPress pro and impress your friends</a>.</p></div><style>#contextual-help-wrap div.hbl_pal_main_width {width: 100% !important;}</style><p><div id="olark-box-container"></div></p>							</div>
+												</div>
+				</div>
+			</div>
+		<div id="screen-options-wrap" class="hidden" tabindex="-1" aria-label="Screen Options Tab">
+<form id='adv-settings' method='post'>
+		<fieldset class="metabox-prefs">
+		<legend>Screen elements</legend>
+		<p>
+			Some screen elements can be shown or hidden by using the checkboxes.			They can be expanded and collapsed by clickling on their headings, and arranged by dragging their headings or by clicking on the up and down arrows.		</p>
+		<label for="dashboard_right_now-hide"><input class="hide-postbox-tog" name="dashboard_right_now-hide" type="checkbox" id="dashboard_right_now-hide" value="dashboard_right_now"  checked='checked' />At a Glance</label><label for="dashboard_activity-hide"><input class="hide-postbox-tog" name="dashboard_activity-hide" type="checkbox" id="dashboard_activity-hide" value="dashboard_activity"  checked='checked' />Activity</label><label for="dashboard_your_stuff-hide"><input class="hide-postbox-tog" name="dashboard_your_stuff-hide" type="checkbox" id="dashboard_your_stuff-hide" value="dashboard_your_stuff"  checked='checked' />Your Stuff</label><label for="dashboard_hot-hide"><input class="hide-postbox-tog" name="dashboard_hot-hide" type="checkbox" id="dashboard_hot-hide" value="dashboard_hot"  checked='checked' />What's Hot</label><label for="dashboard_quick_press-hide"><input class="hide-postbox-tog" name="dashboard_quick_press-hide" type="checkbox" id="dashboard_quick_press-hide" value="dashboard_quick_press"  checked='checked' /><span class="hide-if-no-js">Quick Draft</span> <span class="hide-if-js">Your Recent Drafts</span></label><label for="dashboard_primary-hide"><input class="hide-postbox-tog" name="dashboard_primary-hide" type="checkbox" id="dashboard_primary-hide" value="dashboard_primary"  checked='checked' />WordPress Events and News</label><label for="dashboard_stats-hide"><input class="hide-postbox-tog" name="dashboard_stats-hide" type="checkbox" id="dashboard_stats-hide" value="dashboard_stats"  checked='checked' />Stats</label>		</fieldset>
+		
+<h5>Admin Preferences</h5>
+<div id="personal-dashboard-settings" class="metabox-prefs custom-options-panel requires-autosave"><input type="hidden" name="_wpnonce-personal-dashboard-settings" value="9f900a139d" /><label for="personal_dashboard_settings-use_ssl" style="line-height: 20px;">
+		<input type="checkbox" name="personal_dashboard_settings-use_ssl" id="personal_dashboard_settings-use_ssl" />Always use HTTPS when visiting administration pages</label></div>
+<input type="hidden" id="screenoptionnonce" name="screenoptionnonce" value="f5be7828de" />
+</form>
+</div>		</div>
+				<div id="screen-meta-links">
+					<div id="screen-options-link-wrap" class="hide-if-no-js screen-meta-toggle">
+			<button type="button" id="show-settings-link" class="button show-settings" aria-controls="screen-options-wrap" aria-expanded="false">Screen Options</button>
+			</div>
+						<div id="contextual-help-link-wrap" class="hide-if-no-js screen-meta-toggle">
+			<button type="button" id="contextual-help-link" class="button show-settings" aria-controls="contextual-help-wrap" aria-expanded="false">Help</button>
+			</div>
+				</div>
+		<div id="welcome" class="updated" style="display: none">
+<div id="blog-is-yours" class="col1">
+<h2>Welcome to WordPress.com!</h2>
+<p>You are now in your blog&#8217;s &#8220;dashboard&#8221; where you can write new posts and control lots of important settings and features.</p>
+
+<p>Your dashboard address is only visible to you and it&#8217;s at:<br />
+<a dir="ltr" href="https://amitpurohit857075463.wordpress.com/wp-admin/">amitpurohit857075463.wordpress.com/wp-admin/</a></p>
+				<p>Need help getting started? <a class="learn" href="http://learn.wordpress.com" target="_blank">Visit our zero-to-hero guide</a></p>
+				<p>Have any technical questions? <a class="support" href="http://support.wordpress.com/" target="_blank">Our documentation pages are open&nbsp;24/7</a></p>
+</div>
+
+<div class="col3">
+
+<h3>Some helpful resources:</h3>
+<h4>In your dashboard:</h4>
+<ul>
+	<li><a href="/wp-admin/post-new.php" class="resource-post" target="_blank">Write a post</a></li>
+	<li><a href="/wp-admin/options-general.php" class="resource-settings" target="_blank">General settings</a></li>
+	<li><a class="resource-profile" href="/wp-admin/profile.php" target="_blank">Your profile</a></li>
+	<li><a href="/wp-admin/options-general.php" class="resource-themes" target="_blank">Select your theme</a></li>
+	<li><a class="resource-upgrades" href="/wp-admin/paid-upgrades.php" target="_blank">Upgrades store: supercharge your blog</a></li>
+	<li><a class="elsewhere-tv" href="http://wordpress.tv/" target="_blank">WordPress.tv</a></li>
+</ul>
+
+</div>
+
+<div class="clear"></div>
+<div class="hide-links">
+	<a id="close-welcome-screen" href="#" title="Close this screen">Close this screen</a>
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="wrap">
+	<h1>Dashboard</h1>
+
+	
+
+	<div id="dashboard-widgets-wrap">
+	<div id="dashboard-widgets" class="metabox-holder">
+	<div id="postbox-container-1" class="postbox-container">
+	<div id="normal-sortables" class="meta-box-sortables"><div id="dashboard_right_now" class="postbox " >
+<div class="postbox-header"><h2 class="hndle">At a Glance</h2>
+<div class="handle-actions hide-if-no-js"><button type="button" class="handle-order-higher" aria-disabled="false" aria-describedby="dashboard_right_now-handle-order-higher-description"><span class="screen-reader-text">Move up</span><span class="order-higher-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_right_now-handle-order-higher-description">Move At a Glance box up</span><button type="button" class="handle-order-lower" aria-disabled="false" aria-describedby="dashboard_right_now-handle-order-lower-description"><span class="screen-reader-text">Move down</span><span class="order-lower-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_right_now-handle-order-lower-description">Move At a Glance box down</span><button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: At a Glance</span><span class="toggle-indicator" aria-hidden="true"></span></button></div></div><div class="inside">
+	<div class="main">
+	<ul>
+	<li class="post-count"><a href="edit.php?post_type=post">3 Posts</a></li><li class="page-count"><a href="edit.php?post_type=page">4 Pages</a></li>	</ul>
+	<p id='wp-version-message'><span id="wp-version">WordPress.com running <a href="themes.php">Hever</a> theme.</span></p>	</div>
+		<div class="sub">
+				<style>
+			#dashboard_right_now .amp-validation-errors {
+				color: #a00;
+			}
+			#dashboard_right_now .amp-validation-errors:before {
+				content: "\f534";
+			}
+			#dashboard_right_now .amp-validation-errors:hover {
+				color: #dc3232;
+				border: none;
+			}
+		</style>
+		<p class='akismet-right-now'><a href="https://akismet.com/wordpress/">Akismet</a> blocks spam from getting to your blog. <br />There&#8217;s nothing in your <a href='https://amitpurohit857075463.wordpress.com/wp-admin/edit-comments.php?comment_status=spam'>spam queue</a> at the moment.</p>
+	<h3 class="mu-storage">Storage Space</h3>
+	<div class="mu-storage">
+	<ul>
+		<li class="storage-count">
+			<a href="https://amitpurohit857075463.wordpress.com/wp-admin/upload.php">3,072 MB Space Allowed <span class="screen-reader-text">(Manage Uploads)</span></a>		</li><li class="storage-count ">
+			<a href="https://amitpurohit857075463.wordpress.com/wp-admin/upload.php" class="musublink">0.10 MB (0%) Space Used <span class="screen-reader-text">(Manage Uploads)</span></a>		</li>
+	</ul>
+	</div>
+		</div>
+		</div>
+</div>
+<div id="dashboard_activity" class="postbox " >
+<div class="postbox-header"><h2 class="hndle">Activity</h2>
+<div class="handle-actions hide-if-no-js"><button type="button" class="handle-order-higher" aria-disabled="false" aria-describedby="dashboard_activity-handle-order-higher-description"><span class="screen-reader-text">Move up</span><span class="order-higher-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_activity-handle-order-higher-description">Move Activity box up</span><button type="button" class="handle-order-lower" aria-disabled="false" aria-describedby="dashboard_activity-handle-order-lower-description"><span class="screen-reader-text">Move down</span><span class="order-lower-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_activity-handle-order-lower-description">Move Activity box down</span><button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: Activity</span><span class="toggle-indicator" aria-hidden="true"></span></button></div></div><div class="inside">
+<div id="activity-widget"><div id="published-posts" class="activity-block"><h3>Recently Published</h3><ul><li><span>Jan 13th, 10:42 am</span> <a href="https://amitpurohit857075463.wordpress.com/wp-admin/post.php?post=9&amp;action=edit" aria-label="Edit &#8220;Introduce Yourself (Example Post)&#8221;">Introduce Yourself (Example Post)</a></li><li><span>Jan 13th, 10:42 am</span> <a href="https://amitpurohit857075463.wordpress.com/wp-admin/post.php?post=10&amp;action=edit" aria-label="Edit &#8220;Introduce Yourself (Example Post)&#8221;">Introduce Yourself (Example Post)</a></li><li><span>Jan 13th, 10:42 am</span> <a href="https://amitpurohit857075463.wordpress.com/wp-admin/post.php?post=11&amp;action=edit" aria-label="Edit &#8220;Introduce Yourself (Example Post)&#8221;">Introduce Yourself (Example Post)</a></li></ul></div></div></div>
+</div>
+<div id="dashboard_your_stuff" class="postbox " >
+<div class="postbox-header"><h2 class="hndle">Your Stuff</h2>
+<div class="handle-actions hide-if-no-js"><button type="button" class="handle-order-higher" aria-disabled="false" aria-describedby="dashboard_your_stuff-handle-order-higher-description"><span class="screen-reader-text">Move up</span><span class="order-higher-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_your_stuff-handle-order-higher-description">Move Your Stuff box up</span><button type="button" class="handle-order-lower" aria-disabled="false" aria-describedby="dashboard_your_stuff-handle-order-lower-description"><span class="screen-reader-text">Move down</span><span class="order-lower-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_your_stuff-handle-order-lower-description">Move Your Stuff box down</span><button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: Your Stuff</span><span class="toggle-indicator" aria-hidden="true"></span></button></div></div><div class="inside">
+<p class="widget-loading">Loading&#8230;</p></div>
+</div>
+<div id="dashboard_hot" class="postbox " >
+<div class="postbox-header"><h2 class="hndle">What's Hot</h2>
+<div class="handle-actions hide-if-no-js"><button type="button" class="handle-order-higher" aria-disabled="false" aria-describedby="dashboard_hot-handle-order-higher-description"><span class="screen-reader-text">Move up</span><span class="order-higher-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_hot-handle-order-higher-description">Move What's Hot box up</span><button type="button" class="handle-order-lower" aria-disabled="false" aria-describedby="dashboard_hot-handle-order-lower-description"><span class="screen-reader-text">Move down</span><span class="order-lower-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_hot-handle-order-lower-description">Move What's Hot box down</span><button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: What's Hot</span><span class="toggle-indicator" aria-hidden="true"></span></button></div></div><div class="inside">
+<p class="widget-loading">Loading&#8230;</p></div>
+</div>
+</div>	</div>
+	<div id="postbox-container-2" class="postbox-container">
+	<div id="side-sortables" class="meta-box-sortables"><div id="dashboard_quick_press" class="postbox " >
+<div class="postbox-header"><h2 class="hndle"><span class="hide-if-no-js">Quick Draft</span> <span class="hide-if-js">Your Recent Drafts</span></h2>
+<div class="handle-actions hide-if-no-js"><button type="button" class="handle-order-higher" aria-disabled="false" aria-describedby="dashboard_quick_press-handle-order-higher-description"><span class="screen-reader-text">Move up</span><span class="order-higher-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_quick_press-handle-order-higher-description">Move <span class="hide-if-no-js">Quick Draft</span> <span class="hide-if-js">Your Recent Drafts</span> box up</span><button type="button" class="handle-order-lower" aria-disabled="false" aria-describedby="dashboard_quick_press-handle-order-lower-description"><span class="screen-reader-text">Move down</span><span class="order-lower-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_quick_press-handle-order-lower-description">Move <span class="hide-if-no-js">Quick Draft</span> <span class="hide-if-js">Your Recent Drafts</span> box down</span><button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: <span class="hide-if-no-js">Quick Draft</span> <span class="hide-if-js">Your Recent Drafts</span></span><span class="toggle-indicator" aria-hidden="true"></span></button></div></div><div class="inside">
+
+	<form name="post" action="https://amitpurohit857075463.wordpress.com/wp-admin/post.php" method="post" id="quick-press" class="initial-form hide-if-no-js">
+
+		
+		<div class="input-text-wrap" id="title-wrap">
+			<label for="title">
+				Title			</label>
+			<input type="text" name="post_title" id="title" autocomplete="off" />
+		</div>
+
+		<div class="textarea-wrap" id="description-wrap">
+			<label for="content">Content</label>
+			<textarea name="content" id="content" placeholder="What&#8217;s on your mind?" class="mceEditor" rows="3" cols="15" autocomplete="off"></textarea>
+		</div>
+
+		<p class="submit">
+			<input type="hidden" name="action" id="quickpost-action" value="post-quickdraft-save" />
+			<input type="hidden" name="post_ID" value="34" />
+			<input type="hidden" name="post_type" value="post" />
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="bac9f4e432" /><input type="hidden" name="_wp_http_referer" value="/wp-admin/index.php" />			<input type="submit" name="save" id="save-post" class="button button-primary" value="Save Draft"  />			<br class="clear" />
+		</p>
+
+	</form>
+	</div>
+</div>
+<div id="dashboard_primary" class="postbox " >
+<div class="postbox-header"><h2 class="hndle">WordPress Events and News</h2>
+<div class="handle-actions hide-if-no-js"><button type="button" class="handle-order-higher" aria-disabled="false" aria-describedby="dashboard_primary-handle-order-higher-description"><span class="screen-reader-text">Move up</span><span class="order-higher-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_primary-handle-order-higher-description">Move WordPress Events and News box up</span><button type="button" class="handle-order-lower" aria-disabled="false" aria-describedby="dashboard_primary-handle-order-lower-description"><span class="screen-reader-text">Move down</span><span class="order-lower-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_primary-handle-order-lower-description">Move WordPress Events and News box down</span><button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: WordPress Events and News</span><span class="toggle-indicator" aria-hidden="true"></span></button></div></div><div class="inside">
+
+	<div class="community-events-errors notice notice-error inline hide-if-js">
+		<p class="hide-if-js">
+			This widget requires JavaScript.		</p>
+
+		<p class="community-events-error-occurred" aria-hidden="true">
+			An error occurred. Please try again.		</p>
+
+		<p class="community-events-could-not-locate" aria-hidden="true"></p>
+	</div>
+
+	<div class="community-events-loading hide-if-no-js">
+		Loading&hellip;	</div>
+
+		<div id="community-events" class="community-events" aria-hidden="true">
+		<div class="activity-block">
+			<p>
+				<span id="community-events-location-message"></span>
+
+				<button class="button-link community-events-toggle-location" aria-label="Edit city" aria-expanded="false">
+					<span class="dashicons dashicons-edit"></span>
+				</button>
+			</p>
+
+			<form class="community-events-form" aria-hidden="true" action="https://amitpurohit857075463.wordpress.com/wp-admin/admin-ajax.php" method="post">
+				<label for="community-events-location">
+					City:				</label>
+								<input id="community-events-location" class="regular-text" type="text" name="community-events-location" placeholder="Cincinnati" />
+
+				<input type="submit" name="community-events-submit" id="community-events-submit" class="button" value="Submit"  />
+				<button class="community-events-cancel button-link" type="button" aria-expanded="false">
+					Cancel				</button>
+
+				<span class="spinner"></span>
+			</form>
+		</div>
+
+		<ul class="community-events-results activity-block last"></ul>
+	</div>
+
+	
+	<div class="wordpress-news hide-if-no-js">
+		<div class="rss-widget"><ul><li><a class='rsswidget' href='https://wordpress.org/news/2021/01/the-month-in-wordpress-december-2020/' title='We bid goodbye to 2020 in style with the release of WordPress 5.6 and the launch of Learn WordPress. But these weren’t the only exciting updates from WordPress in December. Read on to learn more! WordPress 5.6 is here The latest major WordPress release, version 5.6 “Simone”, came out on December 8. The release ships […]'>The Month in WordPress: December 2020</a></li><li><a class='rsswidget' href='https://wordpress.org/news/2020/12/introducing-learn-wordpress/' title='Learn WordPress is a learning resource providing workshops, quizzes, courses, and lesson plans to help you to do more with WordPress.'>Introducing Learn WordPress</a></li></ul></div><div class="rss-widget"><ul><li><a class='rsswidget' href='https://pento.net/2021/01/18/wordpress-importers-stating-the-problem/' title='It’s time to focus on the WordPress Importers. I’m not talking about tidying them up, or improve performance, or fixing some bugs, though these are certainly things that should happen. Instead, we need to consider their purpose, how they fit as a driver of WordPress’ commitment to Open Source, and how they can be a key element in helping to keep the Internet [&hellip;]'>Gary: WordPress Importers: Stating the Problem</a></li><li><a class='rsswidget' href='https://wptavern.com/maplibre-launches-as-official-open-source-successor-to-mapbox-gl-js?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=maplibre-launches-as-official-open-source-successor-to-mapbox-gl-js' title='In December, Mapbox shocked its open source contributor community with the news that Mapbox GL JS version 2.0 would be released under a proprietary license. The JavaScript library powers interactive, customizable vector maps on many high profile websites like CNN, The New York Times, Ancestry, Strava, Shopify, Facebook, and more. Older versions remain open s [&hellip;]'>WPTavern: MapLibre Launches as Official Open Source Successor to Mapbox GL JS</a></li><li><a class='rsswidget' href='https://wptavern.com/a-multi-theme-system-the-decade-long-wait-for-grandchild-themes-and-themeless-templates?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=a-multi-theme-system-the-decade-long-wait-for-grandchild-themes-and-themeless-templates' title='Around 2010, child theming had finally caught its stride. Bigger theme shops were starting to take note, and some were implementing advanced parent themes that were meant to serve as a “framework” for creating child themes. The theme development community hit a bit of a brick wall amid this explosion of child theming. Grandchild themes became a topic of deba [&hellip;]'>WPTavern: A Multi-Theme System, the Decade-Long Wait for Grandchild Themes, and Themeless Templates</a></li></ul></div>	</div>
+
+	<p class="community-events-footer">
+		<a href="https://make.wordpress.org/community/meetups-landing-page" target="_blank">Meetups <span class="screen-reader-text">(opens in a new tab)</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>
+		|
+
+		<a href="https://central.wordcamp.org/schedule/" target="_blank">WordCamps <span class="screen-reader-text">(opens in a new tab)</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>
+		|
+
+		<a href="https://wordpress.org/news/" target="_blank">News <span class="screen-reader-text">(opens in a new tab)</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>	</p>
+
+	</div>
+</div>
+<div id="dashboard_stats" class="postbox " >
+<div class="postbox-header"><h2 class="hndle">Stats</h2>
+<div class="handle-actions hide-if-no-js"><button type="button" class="handle-order-higher" aria-disabled="false" aria-describedby="dashboard_stats-handle-order-higher-description"><span class="screen-reader-text">Move up</span><span class="order-higher-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_stats-handle-order-higher-description">Move Stats box up</span><button type="button" class="handle-order-lower" aria-disabled="false" aria-describedby="dashboard_stats-handle-order-lower-description"><span class="screen-reader-text">Move down</span><span class="order-lower-indicator" aria-hidden="true"></span></button><span class="hidden" id="dashboard_stats-handle-order-lower-description">Move Stats box down</span><button type="button" class="handlediv" aria-expanded="true"><span class="screen-reader-text">Toggle panel: Stats</span><span class="toggle-indicator" aria-hidden="true"></span></button></div></div><div class="inside">
+<div id='stats-graph'></div>
+
+<div id='stats-info'>	<a class="button" href="https://wordpress.com/stats/amitpurohit857075463.wordpress.com">View All</a>
+	<div class="main-stats">
+	<div id="top-posts" class="stats-section">
+		<div class="stats-section-inner">
+			<h4>Top Posts (the past week)</h4>
+					</div>
+	</div>
+	<div id="top-search" class="stats-section">
+		<div class="stats-section-inner">
+			<h4>Top Searches</h4>
+			<p></p>
+		</div>
+	</div>
+	</div>
+	<div id="active" class="stats-section">
+		<div class="stats-section-inner">
+			<h4>Most Active (the past day)</h4>
+					</div>
+	</div>
+	<br class="clear" />
+</div>
+
+<br class='clear' />
+</div>
+</div>
+</div>	</div>
+	<div id="postbox-container-3" class="postbox-container">
+	<div id="column3-sortables" class="meta-box-sortables"></div>	</div>
+	<div id="postbox-container-4" class="postbox-container">
+	<div id="column4-sortables" class="meta-box-sortables"></div>	</div>
+</div>
+
+	<input type="hidden" id="closedpostboxesnonce" name="closedpostboxesnonce" value="2c451340e1" /><input type="hidden" id="meta-box-order-nonce" name="meta-box-order-nonce" value="dc0997187f" />	</div><!-- dashboard-widgets-wrap -->
+
+</div><!-- wrap -->
+
+
+	<script id="tmpl-community-events-attend-event-near" type="text/template">
+		Attend an upcoming event near <strong>{{ data.location.description }}</strong>.	</script>
+
+	<script id="tmpl-community-events-could-not-locate" type="text/template">
+		We couldn&#8217;t locate <em>{{data.unknownCity}}</em>. Please try another nearby city. For example: Kansas City; Springfield; Portland.	</script>
+
+	<script id="tmpl-community-events-event-list" type="text/template">
+		<# _.each( data.events, function( event ) { #>
+			<li class="event event-{{ event.type }} wp-clearfix">
+				<div class="event-info">
+					<div class="dashicons event-icon" aria-hidden="true"></div>
+					<div class="event-info-inner">
+						<a class="event-title" href="{{ event.url }}">{{ event.title }}</a>
+						<span class="event-city">{{ event.location.location }}</span>
+					</div>
+				</div>
+
+				<div class="event-date-time">
+					<span class="event-date">{{ event.user_formatted_date }}</span>
+					<# if ( 'meetup' === event.type ) { #>
+						<span class="event-time">
+							{{ event.user_formatted_time }} {{ event.timeZoneAbbreviation }}
+						</span>
+					<# } #>
+				</div>
+			</li>
+		<# } ) #>
+	</script>
+
+	<script id="tmpl-community-events-no-upcoming-events" type="text/template">
+		<li class="event-none">
+			<# if ( data.location.description ) { #>
+				There aren&#8217;t any events scheduled near {{ data.location.description }} at the moment. Would you like to <a href="https://make.wordpress.org/community/handbook/meetup-organizer/welcome/">organize a WordPress event</a>?
+			<# } else { #>
+				There aren&#8217;t any events scheduled near you at the moment. Would you like to <a href="https://make.wordpress.org/community/handbook/meetup-organizer/welcome/">organize a WordPress event</a>?			<# } #>
+		</li>
+	</script>
+	
+<div class="clear"></div></div><!-- wpbody-content -->
+<div class="clear"></div></div><!-- wpbody -->
+<div class="clear"></div></div><!-- wpcontent -->
+
+<div id="wpfooter" role="contentinfo">
+	<script type="text/javascript"> jQuery("#wordads_menu_item").parent().hide(); </script>	<p id="footer-left" class="alignleft">
+		<span id="footer-thankyou">Thank you for creating with <a href="https://wordpress.com/">WordPress</a></span> &bull; <a href="http://en.support.wordpress.com/" target="_blank">Help &amp; Support</a> &bull; <a href="http://learn.wordpress.com/">Learn WordPress &#8212; Tutorials and Walkthroughs</a>	</p>
+	<p id="footer-upgrade" class="alignright">
+			</p>
+	<div class="clear"></div>
+</div>
+    <script type="text/javascript">
+        ( function( $ ) {
+            $( document ).on( 'click', '.accept-tos-prompt .button-primary', function( e ) {
+                e.preventDefault();
+                var button = $( this );
+                button.attr( 'disabled', true );
+                $.post( ajaxurl, {
+                        action: 'accept_tos',
+                        _wpnonce: '8706ea4810'
+                    } )
+                    .done( function() {
+                        $( '.accept-tos-prompt' ).hide();
+                    } )
+                    .fail( function() {
+                        button.attr( 'disabled', false );
+                    } );
+            });
+        } )( jQuery );
+    </script>
+	<script type="text/javascript">
+		var _admin_pv_props = {
+			from_page: 'dashboard',
+			is_block_editor: 'false',
+			source: 'wp-admin',
+			blog_id: '188013152',
+			user_type: 'New User'
+		};
+		_tkq = window._tkq || [];
+		_tkq.push( [ 'identifyUser', 199837513, 'amitpurohit29' ] );
+		_tkq.push( [ 'recordEvent', 'wpcom_admin_page_view', _admin_pv_props ] );
+	</script>
+	<script src="https://stats.wp.com/w.js?61" defer></script> <script type="text/javascript">
+_stq = window._stq || [];
+_stq.push(['raw', {
+  host:document.location.host,
+  ref:document.referrer,
+  admin:1,
+  blog:188013152,
+  user_id:199837513,
+  page:"index.php"
+}]);
+</script>
+<script src='//0.gravatar.com/js/gprofiles.js?ver=202103y' id='grofiles-cards-js'></script>
+<script id='wpgroho-js-extra'>
+var WPGroHo = {"my_hash":"49e8ba83bff57b0699f5d148c5aad0de"};
+</script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240h'></script>
+
+	<script>
+		// Initialize and attach hovercards to all gravatars
+		( function() {
+			function init() {
+				if ( typeof Gravatar === 'undefined' ) {
+					return;
+				}
+
+				if ( typeof Gravatar.init !== 'function' ) {
+					return;
+				}
+
+				Gravatar.profile_cb = function ( hash, id ) {
+					WPGroHo.syncProfileData( hash, id );
+				};
+
+				Gravatar.my_hash = WPGroHo.my_hash;
+				Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+			}
+
+			if ( document.readyState !== 'loading' ) {
+				init();
+			} else {
+				document.addEventListener( 'DOMContentLoaded', init );
+			}
+		} )();
+	</script>
+
+		<div id="wp-auth-check-wrap" class="hidden">
+	<div id="wp-auth-check-bg"></div>
+	<div id="wp-auth-check">
+	<button type="button" class="wp-auth-check-close button-link"><span class="screen-reader-text">Close dialog</span></button>
+			<div id="wp-auth-check-form" class="loading" data-src="https://amitpurohit857075463.wordpress.com/wp-login.php?interim-login=1&#038;wp_lang=en"></div>
+			<div class="wp-auth-fallback">
+		<p><b class="wp-auth-fallback-expired" tabindex="0">Session expired</b></p>
+		<p><a href="https://amitpurohit857075463.wordpress.com/wp-login.php" target="_blank">Please log in again.</a>
+		The login page will open in a new tab. After logging in you can close it and return to this page.</p>
+	</div>
+	</div>
+	</div>
+	<script id='wp-ajax-response-js-extra'>
+var wpAjax = {"noPerm":"Sorry, you are not allowed to do that.","broken":"Something went wrong."};
+</script>
+<script id='quicktags-js-extra'>
+var quicktagsL10n = {"closeAllOpenTags":"Close all open tags","closeTags":"close tags","enterURL":"Enter the URL","enterImageURL":"Enter the URL of the image","enterImageDescription":"Enter a description of the image","textdirection":"text direction","toggleTextdirection":"Toggle Editor Text Direction","dfw":"Distraction-free writing mode","strong":"Bold","strongClose":"Close bold tag","em":"Italic","emClose":"Close italic tag","link":"Insert link","blockquote":"Blockquote","blockquoteClose":"Close blockquote tag","del":"Deleted text (strikethrough)","delClose":"Close deleted text tag","ins":"Inserted text","insClose":"Close inserted text tag","image":"Insert image","ul":"Bulleted list","ulClose":"Close bulleted list tag","ol":"Numbered list","olClose":"Close numbered list tag","li":"List item","liClose":"Close list item tag","code":"Code","codeClose":"Close code tag","more":"Insert Read More tag"};
+</script>
+<script id='admin-comments-js-extra'>
+var adminCommentsSettings = {"hotkeys_highlight_first":"","hotkeys_highlight_last":""};
+</script>
+<script id='wp-util-js-extra'>
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+</script>
+<script id='dashboard-js-extra'>
+var communityEventsData = {"nonce":"4c268e0788","cache":{"sandboxed":false,"error":null,"location":{"ip":"82.44.249.0"},"events":[{"type":"meetup","title":"Discussion group: Custom CSS in the Editor","url":"https:\/\/www.meetup.com\/learn-wordpress-discussions\/events\/275746097\/","meetup":"Learn WordPress Discussions","meetup_url":"https:\/\/www.meetup.com\/learn-wordpress-discussions\/","date":"2021-01-19 01:00:00","end_date":"2021-01-19 02:00:00","start_unix_timestamp":1611046800,"end_unix_timestamp":1611050400,"location":{"location":"Online","country":"US","latitude":37.779998779297,"longitude":-122.41999816895}},{"type":"wordcamp","title":"WordCamp India (Online)","url":"https:\/\/india.wordcamp.org\/2021\/","meetup":null,"meetup_url":null,"date":"2021-01-30 00:00:00","end_date":"2021-02-14 00:00:00","start_unix_timestamp":1611945000,"end_unix_timestamp":1613241000,"location":{"location":"Online","country":"IN","latitude":20.593684,"longitude":78.96288}},{"type":"meetup","title":"Online WordPress Portsmouth Meetup - Clinic","url":"https:\/\/www.meetup.com\/Portsmouth-WordPress-Meetup\/events\/275722874\/","meetup":"Portsmouth WordPress Meetup","meetup_url":"https:\/\/www.meetup.com\/Portsmouth-WordPress-Meetup\/","date":"2021-01-20 19:00:00","end_date":"2021-01-20 21:00:00","start_unix_timestamp":1611169200,"end_unix_timestamp":1611176400,"location":{"location":"Online","country":"GB","latitude":50.810001373291,"longitude":-1.0900000333786}}]},"time_format":"g:i a"};
+</script>
+<script id='thickbox-js-extra'>
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/s0.wp.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+</script>
+<script id='heartbeat-js-extra'>
+var heartbeatSettings = {"nonce":"a1d6717e8b"};
+</script>
+<script id='notes-rest-common-js-extra'>
+var wpNotesArgs = {"cacheBuster":"@automattic\/jetpack-blocks@13.1.0-10451-g9f7e375b88","iframeUrl":"https:\/\/widgets.wp.com\/notifications\/","iframeAppend":"2","iframeScroll":"no","wide":"1"};
+</script>
+<script id='wpcom-track-admin-help-js-extra'>
+var WpcomTrackAdminHelpL10n = {"nonce":"73ed90d974"};
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJydVNt23CAM/KFi6rQnSR96+pzPwKDaeAERLs7u31fYu06cmt0kL75prBmNJPiLZxJdApf4GLmCSUvwx2aM3ziFtJMmK4glNuAE4WmGNla7PYjSMfEJnMJQQh7N6a825i38QuZN7rWLvM/02kHoKRKAT7+ah+YH77I2iuv20XHtFKx6hKJUhUmitehqOmapeiZiY6yh5mSsE6EGKISjOLIA0aOLUMONzxnC6XxrJBq8ltKQSVVNz1nLQxJ9FbDlWq7vzQGlEysOUf23EmXNX7TqodrTV5zFfNMDgkUMSXQGvtp1hZYcF+q0bf1nUoi2PVUGx2NMHR5rZWT6KcSS8UoHc9LmIytg0b5blk/5IBJUilAiDh2KoGoq0kBjRGWuD3ugOFCnJKpNqSuHpSkSLHuDQu0C4tQzL8qWha+UNyAe4ra+zQqDCKkDUZ3LIiWngckB5GHPY5vZRce66RSnvWCvm7+TuBPFMbc7v8WXHJMg0it0DhOcr2w5qNh0dxO/inoD3t8wmmGddP34m4/epTE7NSw8F+6lzXCkPgcIjGqjI+MjTloRiaDITYEc+++nLc3i+4w8uz+A8ZXPlOqP/d3et98f7h7vf7bjP83ecpQ='></script>
+<script type='text/javascript'>
+( 'fetch' in window ) || document.write( '<script src="https://s0.wp.com/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?m=1573572739h&#038;ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://s0.wp.com/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?m=1540208548h&#038;ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://s0.wp.com/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?m=1585663916h&#038;ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://s0.wp.com/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?m=1585663916h&#038;ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://s0.wp.com/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?m=1550600082h&#038;ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://s0.wp.com/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?m=1540208548h&#038;ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script type='text/javascript'>
+moment.updateLocale( 'en', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+</script>
+<script type='text/javascript'>
+wp.date.setSettings( {"l10n":{"locale":"en","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"meridiem":{"am":"am","pm":"pm","AM":"AM","PM":"PM"},"relative":{"future":"%s from now","past":"%s ago"}},"formats":{"time":"g:i a","date":"F j, Y","datetime":"F j, Y g:i a","datetimeAbbreviated":"M j, Y g:i a"},"timezone":{"offset":0,"string":"Europe\/London","abbr":"GMT"}} );
+wp.date.setSettings( {"l10n":{"locale":"en","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"meridiem":{"am":"am","pm":"pm","AM":"AM","PM":"PM"},"relative":{"future":"%s from now","past":"%s ago"}},"formats":{"time":"g:i a","date":"F j, Y","datetime":"F j, Y g:i a","datetimeAbbreviated":"M j, Y g:i a"},"timezone":{"offset":0,"string":"Europe\/London","abbr":"GMT"}} );
+</script>
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+			(function() {
+				'use strict';
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+							ga( 'create', 'UA-10673494-16' );
+								ga( 'set', 'userId', "65f74c9566620039328b3c570f1d53c82b2fa8851eed22d90085430be48bc3ba" );
+								ga( 'set', 'anonymizeIp', true );
+				ga( 'set', 'allowAdFeatures', false );
+				ga( 'send', 'pageview' );
+						})();
+		</script>
+		<!-- Google Analytics -->
+				<script type="text/javascript">
+			( function( $ ) {
+				var options = {"content":"<h3>AMP<\/h3><p><strong>Stories<\/strong><\/p><p>You can now enable Stories, a visual storytelling format for the open web which immerses your readers in fast-loading, full-screen, and visually rich experiences.<\/p>","position":{"edge":"left","align":"middle"},"pointerClass":"wp-pointer wp-amp-pointer"};
+
+				if ( ! options ) {
+					return;
+				}
+
+				options = $.extend( options, {
+					close: function() {
+						$.post( ajaxurl, {
+							pointer: 'amp_stories_support_pointer_12',
+							action: 'dismiss-wp-pointer'
+						});
+					}
+				});
+
+				function setup() {
+					$( '#toplevel_page_amp-options' ).first().pointer( options ).pointer( 'open' );
+				}
+				if ( options.position && options.position.defer_loading ) {
+					$( window ).bind( 'load.wp-pointers', setup );
+				} else {
+					$( document ).ready( setup );
+				}
+
+			} )( jQuery );
+		</script>
+			<script type="text/javascript">
+	//<![CDATA[
+		jQuery(function($) {
+			var record_stat = function(stat_name) {
+				var i = new Image(1,1);
+				var p = document.location.protocol || 'http:';
+				i.src = p + '//pixel.wp.com/g.gif?v=wpcom-no-pv&x_welcome-screen='+stat_name+'&baba='+Math.random();
+			};
+			var $link_to_welcome = $('a#are-you-new');
+			var $welcome = $('#welcome');
+			var classes_of_links = ['learn', 'support', 'resource-settings', 'resource-profile', 'resource-themes', 'resource-upgrades', 'elsewhere-tv', 'elsewhere-support', 'elsewhere-learn', 'hide-remind', 'hide-forever'];
+			for(var i=0; i<classes_of_links.length; ++i) {
+				var link_class = classes_of_links[i];
+				$('a.'+link_class, $welcome).bind('click', {link_class: link_class}, function(e) { record_stat(e.data.link_class); return true;});
+			}
+			var resize_vid = function() {
+				var $welcome_video = $('#welcome-video', $welcome);
+				var new_video_width = $welcome_video.width() - 30;
+				// assume the video is 16:9, because in FF we can't reliably get the height of the object tag
+				var new_video_height = (new_video_width * 9) / 16;
+				var new_dimensions = {width: new_video_width, height: new_video_height};
+				$('.video-player', $welcome_video).add($('object', $welcome_video)).add('img', $welcome_video).attr(new_dimensions).css(new_dimensions);
+			}
+			resize_vid();
+			$link_to_welcome.click(function(e) {
+				if ( $welcome.is(':visible') ) {
+					$welcome.hide();
+				} else {
+					$welcome.show();
+					resize_vid();
+				}
+				record_stat('click');
+				return false;
+			});
+			$('div.hide-links a', $welcome).click(function() {
+				$welcome.slideUp();
+				var self = $(this);
+				var $href = self.attr('href');
+				if ( $href != '#' ) {
+					$.get($href + '&ajax' );
+				}
+				return false;
+			});
+		});
+	//]]>
+	</script>
+
+<div class="clear"></div></div><!-- wpwrap -->
+<script type="text/javascript">if(typeof wpOnload=='function')wpOnload();</script>
+</body>
+</html>
