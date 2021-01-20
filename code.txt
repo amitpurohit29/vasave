@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
-
+<html class="wp-toolbar"
+	lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Dashboard &lsaquo; Amit Purohit &#8212; Wordpress </title>
