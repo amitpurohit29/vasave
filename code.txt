@@ -4,7 +4,7 @@
 	lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Dashboard &lsaquo; Amit Purohit &#8212; Wordpress </title>
+	<title>Dashboard &lsaquo; Amit Purohit &#8212; Amit Purohit </title>
 <script type="text/javascript">
 addLoadEvent = function(func){if(typeof jQuery!=='undefined')jQuery(document).ready(func);else if(typeof wpOnload!=='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
 var ajaxurl = '/wp-admin/admin-ajax.php',
